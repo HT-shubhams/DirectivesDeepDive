@@ -9,7 +9,7 @@
     <p>Only admin should see this!</p>
   </ng-template> -->
 
-  <p *appAuth="'admin'" class="protected-content admin">
+  <p *appAuth="'admin'" appLogs class="protected-content admin">
     Only admin should see this!
   </p>
 
